@@ -32,13 +32,5 @@ while True:
     except ValueError: 
         print("Lütfen geçerli bir numara girin.")
 
-sozluk={1:"CC0",2:"CC BY",3:"CC BY-SA",4:"CC BY-NC",5:"CC BY-NC-SA",6:"CC BY-NC-ND",7:"CC BY-ND"}
-calismaismi= input("Çalışma ismini girin: ")
-kimyapti= input("Çalışmayı yapan kişinin ismini girin: ")
-clink= input("Çalışma linkini girin: ")
-yprofil= input("Yapan kişinin profil linkini girin: ")
-yil= input("Yılı girin: ") 
-
-print("\n")
-print( calismaismi +" © "+yil+" by "+kimyapti+" is licensed under "+sozluk[secim]+" License.")
+uygulama.Lisanslar.veri()
     
